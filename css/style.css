@@ -12,28 +12,99 @@ body {
   font-family:'open sans';
 }
 
-.main-wrapper {
-  width:960px;
-  margin:0 auto;
-}
-
 header {
   height:90px;
   width:100%;
   background-color:#033048;
+  padding: 20px 80px;
+  box-sizing:border-box;
+}
+
+.main-wrapper {
+  width:960px;
+  margin:0 auto;
+  padding:40px 80px;
+}
+
+.main {
+  width:700px;
+  float:left;
+}
+
+.logo h1 {
+  color:#FFF;
+  font-weight:800;
+  font-size:48px;
+  width: 100px;
+  float:left;
 }
 
 nav {
-  
 }
 
-h1 {
-  color:#FFF;
+p {
+  font-weight:300;
+  font-size:24px;
+}
+
+.main p {
+  line-height:150%;
+  color:#606161;
+}
+
+.main p::first-letter {
+  font-size:48px;
+  font-style:bold;
+  float:left;
+}
+
+img {
+  margin:20px 0;
+}
+
+nav ul li {
+  color:#f9e42e;
+  display:block;
+  float:right;
+  height:45px;
+  padding-top:18px;
+  margin-left:40px;
+  font-weight:600;
+  font-size:20px;
+}
+
+h2 {
+  font-size:40px;
+  font-weight:600;
+  line-height:125%;
+  color:#033048;
+}
+
+h3 {
+  font-size:32px;
   font-weight:800;
-  font-size:45px;
+  margin-bottom:20px;
 }
 
-.clearfix:after {
+aside {
+  width:240px;
+  float:right;
+  color:#033048;
+}
+
+aside .right ul li{
+  font-size:24px;
+  font-weight:300;
+  line-height:125%;
+  padding-left:10px;
+} 
+
+aside .right p {
+  font-size:24px;
+  font-weight:300;
+}
+
+.clearfix::after {
      content: ".";
      display: block;
      clear: both;
@@ -42,8 +113,13 @@ h1 {
      height: 0;
 }
 
+.post {
+  border-bottom:1px solid;
+}
 
-
-
+.main a {
+  text-align:right;
+  text-decoration:none;
+}
 
 
