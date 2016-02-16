@@ -103,6 +103,15 @@ h2 {
   color:#033048;
 }
 
+.post a {
+  cursor:pointer;
+  display:block;
+}
+
+p[id^="read_more"] {
+  display:none;
+}
+
 /*ASIDE*/
 
 h3 {
@@ -153,13 +162,18 @@ aside .right p {
   margin-bottom:30px;
 }
 
-.right a {
+#readLess1, #readLess2 {
+  display:none;
+}
+
+aside .right a {
   display:block;
   margin-top:10px;
   text-decoration:none;
   color:#033048;
   font-weight:600;
   font-size:22px;
+  cursor:pointer;
 }
 
 .main a {
@@ -170,6 +184,11 @@ aside .right p {
   color:#033048;
   font-size:24px;
   font-weight:600;
+}
+
+#learn_more {
+  display:none;
+  margin-bottom:30px;
 }
 
 /*FOOTER*/
@@ -197,6 +216,11 @@ footer .yellow-bg {
   font-size:20px;
   padding-top:20px;
   text-align:center;
+  cursor:pointer;
+}
+
+p#popup {
+  padding:40px;
 }
 
 .black-bg {
